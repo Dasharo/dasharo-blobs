@@ -3,20 +3,28 @@
 The directory contains blobs to produce a full Dasharo firmware image
 compatible with MSI PRO Z690-A variants (DDR4 and DDR5 with or without WIFI).
 
-* `me.bin` - Intel Management Engine 16.1.30.2255, subject to
-  [INTEL SOFTWARE LICENSE AGREEMENT][INTEL SLA]
-* `descriptor.bin` - Intel Flash descriptor, subject to
-  [INTEL SOFTWARE LICENSE AGREEMENT][INTEL SLA]
+Do not use or load software from this repository until you have carefully read
+the licenses assigned to the relevant components. By downloading or using the
+software component from this repository, you agree to the terms of license
+associated with the given software component. If you do not wish to so agree,
+do not install or use the software from this repository. Association of the
+software components and licenses is presented below.
 
-Intel Management Engine and Flash descriptor have been generated from Intel
+* `me.bin` - Intel Management Engine
+  - Version: v16.1.30.2255,
+  - License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+* `descriptor.bin` - Intel Flash Descriptor
+  - Version: v1.0,
+  - License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+
+Intel Management Engine and Flash Descriptor have been generated from Intel
 CSME for Raptor Lake-S 16.1.30.2255v5 Consumer software kit using genuine
-components provided by Intel, subject to the [INTEL SOFTWARE LICENSE AGREEMENT][INTEL SLA].
+components provided by Intel, subject to the
+[PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
 Apart from the components in the CSME software kit, a Chipset Initialization
 binary has been generated from the Intel PCH Chipset Initialization Kit
-v160.02.99.1014, subject to the [INTEL SOFTWARE LICENSE AGREEMENT][INTEL SLA].
-
-By using above components you agree to the
-[INTEL SOFTWARE LICENSE AGREEMENT][INTEL SLA].
+v160.02.99.1014, subject to the
+[PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
 
 You can verify the binary hashes using signatures made by the Dasharo release
 keys for given platform available on [3mdeb-secpack](https://github.com/3mdeb/3mdeb-secpack).
