@@ -1,5 +1,8 @@
 #!ipxe
 
+# 'isset' won't work, as a side effect it will show users that FUM is enabled
+show efi/FirmwareUpdateMode && goto dasharo ||
+
 # main menu
 :MENU
 menu
