@@ -11,14 +11,14 @@ do not install or use the software from this repository. Association of the
 software components and licenses is presented below.
 
 * `me.bin` - Intel Management Engine
-  - Version: v16.1.30.2255,
+  - Version: v16.1.30.2307,
   - License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 * `descriptor.bin` - Intel Flash Descriptor
   - Version: v1.0,
   - License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
-CSME for Raptor Lake-S 16.1.30.2255v5 Consumer software kit using genuine
+CSME for Raptor Lake-S 16.1.30.2307v4 Consumer software kit using genuine
 components provided by Intel, subject to the
 [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
 Apart from the components in the CSME software kit, a Chipset Initialization
