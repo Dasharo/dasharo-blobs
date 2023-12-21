@@ -20,7 +20,7 @@ goto MENU
 
 :dasharo
 dhcp ||
-chain http://boot.dasharo.com/dts/dts.ipxe ||
+chain https://boot.dasharo.com/dts/dts.ipxe ||
 goto MENU
 
 :netbootxyz
