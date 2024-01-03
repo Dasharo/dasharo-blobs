@@ -7,3 +7,4 @@ used by all Protectli platforms.
 Platform-specific blobs are placed in respective directories:
 
 - [vault_cml](vault_cml) - Protectli VP4630/VP4650/VP4670 blobs
+- [vault_glk](vault_glk) - Protectli VP2410 blobs
