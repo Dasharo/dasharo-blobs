@@ -1,4 +1,5 @@
 # dasharo-blobs
+
 Repository containing extra assets for use with Dasharo
 
 # Licenses
@@ -13,8 +14,8 @@ subdirectories.
 
 # Creating SHASUMS
 
-Example how to create SHA256SUMS for all file with `.bin` extension:
+Example how to create SHA256SUMS for all files with `.bin` extension:
 
 ```bash
-sha256sum `find . -name "*.bin"` > SHA256SUMS
+for file in *.bin; do sha256sum $file; done > SHA256SUMS
 ```
