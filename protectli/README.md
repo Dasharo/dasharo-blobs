@@ -10,3 +10,4 @@ Platform-specific blobs are placed in respective directories:
 - [vault_glk](vault_glk) - Protectli VP2410 blobs
 - [vault_jsl](vault_jsl) - Protectli V1210/V1410/V1610 blobs
 - [vault_ehl](vault_ehl) - Protectli VP2420 blobs
+- [vault_bsw](vault_bsw) - Protectli FW4C blobs
