@@ -34,3 +34,11 @@ sha256sum -c SHA256SUMS
 
 [INTEL SLA]: ../../licenses/pv%20intel%20obl%20software%20license%20agreement%2011.2.2017.pdf
 [KEY]: https://github.com/3mdeb/3mdeb-secpack/blob/master/customer-keys/novacustom/novacustom-open-source-firmware-release-1.x-key.asc
+
+## Other files
+
+* `vbt.sjf` - Configuration parameters for Intel Video BIOS Table blob
+  - Configuration data for generating Intel Video BIOS Table. Extracted from
+    vendor firmware, may be used with Intel DisCon utility and VBT samples from
+    [Intel FSP repository](https://github.com/intel/FSP/tree/master/TigerLakeFspBinPkg/Client/SampleCode/Vbt)
+    to generate a new VBT.
