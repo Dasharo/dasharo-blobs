@@ -11,14 +11,14 @@ do not install or use the software from this repository. Association of the
 software components and licenses is presented below.
 
 * `me.bin` - Intel Management Engine
-  * Version: v16.1.30.2307,
+  * Version: v16.1.25.1865,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 * `descriptor.bin` - Intel Flash Descriptor
-  * Version: v1.0,
+  * Version: v1.1,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
-CSME for Alder Lake-P 16.1.30.2307V4 Consumer software kit using genuine
+CSME for Alder Lake-P 16.1.25.1865V6.1 Consumer software kit using genuine
 components provided by Intel, subject to the
 [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
 
