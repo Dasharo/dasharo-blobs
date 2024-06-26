@@ -72,9 +72,12 @@ typedef struct {
 **/
   UINT8                       EnableAbove4GBMmio;
 
-/** Offset 0x004B
+/** Offset 0x004B - Ibecc Ec Dis
+  This option enables or disables the Ibecc Control register Ec Dis field. Default
+  0 = Enabled.
+  $EN_DIS
 **/
-  UINT8                       Rsvd010[1];
+  UINT8                       IbeccEcDis;
 
 /** Offset 0x004C - Memory SPD Pointer Controller 0 Channel 0 Dimm 0
   Pointer to SPD data, will be used only when SpdAddressTable SPD Address are marked as 00

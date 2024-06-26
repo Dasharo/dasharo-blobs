@@ -90,7 +90,7 @@ StructDef
         $gPlatformFspPkgTokenSpaceGuid_PlatformMemorySize              8 bytes    $_DEFAULT_ = 0x400000
         $gPlatformFspPkgTokenSpaceGuid_MemorySpdDataLen                2 bytes    $_DEFAULT_ = 0x200
         $gPlatformFspPkgTokenSpaceGuid_EnableAbove4GBMmio              1 bytes    $_DEFAULT_ = 0x01
-        Skip 1 bytes
+        $gPlatformFspPkgTokenSpaceGuid_IbeccEcDis                      1 bytes    $_DEFAULT_ = 0x0
         $gPlatformFspPkgTokenSpaceGuid_MemorySpdPtr000                 4 bytes    $_DEFAULT_ = 0x00000000
         $gPlatformFspPkgTokenSpaceGuid_MemorySpdPtr001                 4 bytes    $_DEFAULT_ = 0x00000000
         $gPlatformFspPkgTokenSpaceGuid_MemorySpdPtr010                 4 bytes    $_DEFAULT_ = 0x00000000
@@ -2898,6 +2898,8 @@ Page "Memory Reference Code"
         Help "Length of SPD Data"
     Combo $gPlatformFspPkgTokenSpaceGuid_EnableAbove4GBMmio, "Enable above 4GB MMIO resource support", &EN_DIS,
         Help "DEPRECATED. Enable/disable above 4GB MMIO resource support"
+    Combo $gPlatformFspPkgTokenSpaceGuid_IbeccEcDis, "Ibecc Ec Dis", &EN_DIS,
+        Help "This option enables or disables the Ibecc Control register Ec Dis field. Default 0 = Enabled."
     EditNum $gPlatformFspPkgTokenSpaceGuid_MemorySpdPtr000, "Memory SPD Pointer Controller 0 Channel 0 Dimm 0", HEX,
         Help "Pointer to SPD data, will be used only when SpdAddressTable SPD Address are marked as 00"
              "Valid range: 0x00 ~ 0xFFFFFFFF"
