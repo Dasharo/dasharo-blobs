@@ -22,7 +22,11 @@ software components and licenses is presented below.
     * v1.1
       * Enable ME and Flash Descriptor region read-write access
     * v1.0 - initial version
-
+* `microcode.bin` - Intel microcode update file
+  * Version:
+    * 0x36 for CPUIDs 00090672, 00090675, 000b06f2, 000b06f5
+    * 0x12B for CPUID 000b0671
+  * License [Intel production microcode license][INTEL_UCODE]
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
 CSME for Raptor Lake-S 16.1.30.2307v4 Consumer software kit using genuine
@@ -44,4 +48,5 @@ sha256sum -c SHA256SUMS
 ```
 
 [INTEL SLA]: ../../licenses/pv%20intel%20obl%20software%20license%20agreement%2011.2.2017.pdf
+[INTEL UCODE]: ../../licenses/LICENSE_UCODE_PROD.md
 [KEY]: https://github.com/3mdeb/3mdeb-secpack/blob/master/dasharo/msi_ms7e06/dasharo-release-0.x-compatible-with-msi-ms-7e06-signing-key.asc
