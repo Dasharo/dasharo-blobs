@@ -10,12 +10,20 @@ associated with the given software component. If you do not wish to so agree,
 do not install or use the software from this repository. Association of the
 software components and licenses is presented below.
 
-* `me.bin` - Intel Management Engine
+* `{V1210,V1410,V1610}/me.bin` - Intel Management Engine
   * Version: v13.50.27.1987,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
-* `descriptor.bin` - Intel Flash Descriptor
+* `{V1410,V1610}/descriptor.bin` - Intel Flash Descriptor
   * Version: v1.0,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+* `V1210/descriptor.bin` - Intel Flash Descriptor
+  * Version: v1.1,
+  * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+  * Changelog:
+    * V1.1:
+      * Change SPA bifurcation to 2x2 to get NVMe link x2
+      * Enable SATA1 on Multi Flex Combo port 0 (SATA1/PCIE8/USB6) to support
+        M.2 SATA disk in NVMe slot
 * `JasperLakeFspBinPkg` - Intel Firmware Support Package for JasperLake from
   JSL_BIOS_3332_00 software kit provided by Intel
   * Version: 2021/08/23 v2115,
@@ -28,8 +36,7 @@ subject to the [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
 You can verify the binary hashes using signatures made by the Dasharo release
 keys for given platform available on
 [3mdeb-secpack](https://github.com/3mdeb/3mdeb-secpack). Current signing key:
-[Dasharo open-source firmware engineering release signing key][KEY] (an
-engineering key is used, because platforms are not in production quality yet).
+[Dasharo release 0.9.x for Protectli signing key][KEY].
 
 ```bash
 gpg -v --verify SHA256SUMS.sig SHA256SUMS
@@ -37,4 +44,4 @@ sha256sum -c SHA256SUMS
 ```
 
 [INTEL SLA]: ../../licenses/pv%20intel%20obl%20software%20license%20agreement%2011.2.2017.pdf
-[KEY]: https://github.com/3mdeb/3mdeb-secpack/blob/master/dasharo/dasharo-open-source-firmware-engineering-release-signing-key.asc
+[KEY]: https://github.com/3mdeb/3mdeb-secpack/blob/master/customer-keys/protectli/release-keys/dasharo-release-0.9.x-for-protectli-signing-key.asc
