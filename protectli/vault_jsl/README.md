@@ -13,9 +13,24 @@ software components and licenses is presented below.
 * `{V1210,V1410,V1610}/me.bin` - Intel Management Engine
   * Version: v13.50.27.1987,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
-* `{V1410,V1610}/descriptor.bin` - Intel Flash Descriptor
-  * Version: v1.0,
+* `V1410/descriptor.bin` - Intel Flash Descriptor
+  * Version: v1.1,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+  * Changelog:
+    * V1.1:
+      * Enable SATA1 on Multi Flex Combo port 0 (SATA1/PCIE8/USB6) to support
+        M.2 SATA disk in NVMe slot
+      * Enable PCIe on Multi Flex Combo port 1 (SATA0/PCIE7) to support
+        NVMe disk with x1 link in NVMe slot
+* `V1610/descriptor.bin` - Intel Flash Descriptor
+  * Version: v1.1,
+  * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+  * Changelog:
+    * V1.1:
+      * Change SPA bifurcation to 2x2 to get NVMe link x2
+      * Enable PCIe on Multi Flex Combo port 0 and 1 to support NVMe with x2
+        link in NVMe slot slot (the strap is patched to SATA dynamically based
+        on detected disk in coreboot)
 * `V1210/descriptor.bin` - Intel Flash Descriptor
   * Version: v1.1,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
