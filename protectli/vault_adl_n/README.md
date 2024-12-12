@@ -12,18 +12,30 @@ software components and licenses is presented below.
 
 * `vp32xx/`
   * `me.bin` - Intel Management Engine
-    * Version: v16.50.12.1453,
+    * Version: v16.50.12.1453-v0.1,
     * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+    * Changelog:
+      * v0.1:
+        * Fix the board power cycling instead of rebooting issue
   * `descriptor.bin` - Intel Flash Descriptor
-    * Version: v1.0,
+    * Version: v1.1,
     * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+    * Changelog:
+      * v1.1:
+        * Fix the board power cycling instead of rebooting issue
 * `vp2430/`
   * `me.bin` - Intel Management Engine
-    * Version: v16.50.12.1453,
+    * Version: v16.50.12.1453-v0.1,
     * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+    * Changelog:
+      * v0.1:
+        * Fix the board power cycling instead of rebooting issue
   * `descriptor.bin` - Intel Flash Descriptor
-    * Version: v1.0,
+    * Version: v1.1,
     * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+    * Changelog:
+      * v1.1:
+        * Fix the board power cycling instead of rebooting issue
   * `AlderLakeFspBinPkg/` - Intel Alder Lake-N Firmware Support Package
     * Version: 0C.02.89.30-v0.1
     * License: [Intel FSP/SIC Software License Agreement][INTEL FSP SIC SLA]
