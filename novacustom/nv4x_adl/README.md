@@ -16,6 +16,9 @@ software components and licenses is presented below.
 * `descriptor.bin` - Intel Flash Descriptor
   - Version: v1.0,
   - License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+* `IntelGopDriver.efi` - Intel GOP Driver
+  - Version: v21.0.1066,
+  - License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
 CSME for Raptor Lake-P 16.1.30.2307v4 Consumer software kit using genuine

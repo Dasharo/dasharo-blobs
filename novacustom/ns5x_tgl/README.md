@@ -16,6 +16,9 @@ software components and licenses is presented below.
 * `descriptor.bin` - Intel Flash Descriptor
   - Version: v1.0,
   - License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+* `IntelGopDriver.efi` - Intel GOP Driver
+  - Version: v17.0.1087,
+  - License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
 CSME for Tiger Lake-U 15.0.47.2473v3 Consumer software kit using genuine
