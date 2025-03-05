@@ -25,15 +25,17 @@ software components and licenses is presented below.
         * Fix the board power cycling instead of rebooting issue
 * `vp2430/`
   * `me.bin` - Intel Management Engine
-    * Version: v16.50.12.1453-v0.1,
+    * Version: v16.50.15.1515,
     * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
     * Changelog:
-      * v0.1:
+      * v16.50.12.1453-v0.1:
         * Fix the board power cycling instead of rebooting issue
   * `descriptor.bin` - Intel Flash Descriptor
-    * Version: v1.1,
+    * Version: v1.2,
     * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
     * Changelog:
+      * v1.2:
+        * Updated to the newest ME 16.50.15.1515
       * v1.1:
         * Fix the board power cycling instead of rebooting issue
   * `AlderLakeFspBinPkg/` - Intel Alder Lake-N Firmware Support Package
@@ -47,9 +49,9 @@ software components and licenses is presented below.
       * 0C.02.89.30 - base unmodified Intel FSP version
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
-CSME for Alder Lake-N 16.50.12.1453v2 Consumer software kit using genuine
-components provided by Intel, subject to the
-[PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
+CSME for Alder Lake-N 16.50.12.1453v2 and 16.50.15.1515v3.1 Consumer software
+kit using genuine components provided by Intel, subject to the [PV Intel OBL
+Software License Agreement 11.2.2017][INTEL SLA].
 
 You can verify the binary hashes using signatures made by the Dasharo release
 keys for given platform available on [3mdeb-secpack](https://github.com/3mdeb/3mdeb-secpack).
