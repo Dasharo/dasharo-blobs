@@ -47,6 +47,13 @@ software components and licenses is presented below.
         * Always program CPU features on S3 resume
         * Add support for PchPciePowerGating and PchPcieClockGating
       * 0C.02.89.30 - base unmodified Intel FSP version
+* `vp2430/`
+  * `me.bin` - Intel Management Engine
+    * Version: v16.50.15.1515,
+    * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+  * `descriptor.bin` - Intel Flash Descriptor
+    * Version: v1.0,
+    * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
 CSME for Alder Lake-N 16.50.12.1453v2 and 16.50.15.1515v3.1 Consumer software
