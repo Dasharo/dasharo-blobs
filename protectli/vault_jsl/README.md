@@ -35,6 +35,10 @@ software components and licenses is presented below.
   * Version: v1.1,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
   * Changelog:
+    * V1.2:
+      * Change SPA bifurcation to 1x2, 2x1 to get NVMe link x2
+      * Enable SATA0 on Multi Flex Combo port 0 (SATA0/PCIE7/USB5) to support
+        M.2 SATA disk in NVMe slot
     * V1.1:
       * Change SPA bifurcation to 2x2 to get NVMe link x2
       * Enable SATA1 on Multi Flex Combo port 0 (SATA1/PCIE8/USB6) to support
