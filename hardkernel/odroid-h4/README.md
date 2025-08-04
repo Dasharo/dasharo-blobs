@@ -14,12 +14,17 @@ software components and licenses is presented below.
   * Version: v16.50.10.1351,
   * License:  [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
 * `descriptor.bin` - Intel Flash Descriptor
-  * Version: v1.0,
-  * License:  [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
-* `descriptor_netcard.bin` - Intel Flash Descriptor
-  * Version: v1.0,
+  * Version: v1.1,
   * License:  [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
   * Changelog:
+    * v1.1
+      * Increased top swap size from 256KB to 512KB for Slim Bootloader
+* `descriptor_netcard.bin` - Intel Flash Descriptor
+  * Version: v1.1,
+  * License:  [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
+  * Changelog:
+    * v1.1
+      * Increased top swap size from 256KB to 512KB for Slim Bootloader
     * v1.0
       * Based on `descriptor.bin` v1.0
       * Changed PCIe Controller 3 bifurcation to 4x1
