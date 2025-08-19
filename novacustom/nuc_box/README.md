@@ -16,9 +16,6 @@ software components and licenses is presented below.
 * `descriptor.bin` - Intel Flash Descriptor
   * Version: v1.0
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
-* `IntelGopDriver.efi` - Intel Graphics Output Protocol UEFI driver
-  * Version: v22.0.1041
-  * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
 CSME for Meteor Lake H/U 18.0.5.2040v2 Consumer software kit using genuine
