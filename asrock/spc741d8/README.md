@@ -1,4 +1,4 @@
-# MSI MS-7D25 blobs
+# ASRock Rack SPC blobs SPC741D8-2L2T
 
 The directory contains blobs to produce a full Dasharo firmware image
 compatible with ASRock Rack SPC741D8-2L2T.
