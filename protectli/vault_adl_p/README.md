@@ -11,20 +11,22 @@ do not install or use the software from this repository. Association of the
 software components and licenses is presented below.
 
 * `me.bin` - Intel Management Engine
-  * Version: v16.1.25.1865-v0.1,
+  * Version: v16.1.40.2768,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
   * Changelog:
     * v0.1:
       * Fix the board power cycling instead of rebooting issue
 * `descriptor.bin` - Intel Flash Descriptor
-  * Version: v1.2,
+  * Version: v1.3,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
   * Changelog:
+    * v1.3:
+      * Update to ME v16.1.40.2768
     * v1.2:
       * Fix the board power cycling instead of rebooting issue
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
-CSME for Alder Lake-P 16.1.25.1865V6.1 Consumer software kit using genuine
+CSME for Alder Lake-P 16.1.40.2768 Consumer software kit using genuine
 components provided by Intel, subject to the
 [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
 
