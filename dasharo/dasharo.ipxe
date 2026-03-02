@@ -9,6 +9,7 @@ menu
 item --gap -- ------------------------ Dasharo Network Boot Menu ------------------------
 item boot           Autoboot (DHCP)
 item dasharo        Dasharo Tools Suite
+item dasharo_nightly Dasharo Tools Suite (Nightly)
 item netbootxyz     OS installation (netboot.xyz official server)
 item shell          iPXE Shell
 choose --default boot --timeout 3000 target && goto ${target}
@@ -23,6 +24,11 @@ dhcp ||
 chain https://boot.dasharo.com/dts/dts.ipxe ||
 goto MENU
 
+:dasharo_nightly
+dhcp ||
+chain https://boot.dasharo.com/dts/nightly.ipxe ||
+goto MENU
+
 :netbootxyz
 dhcp ||
 chain https://boot.netboot.xyz/menu.ipxe ||
@@ -34,4 +40,3 @@ shell ||
 goto MENU
 
 autoboot
-
