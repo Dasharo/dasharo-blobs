@@ -17,6 +17,9 @@ software components and licenses is presented below.
   * Version: v1.2,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
   * Changelog:
+    * V1.3:
+      * Adjust bifurcation and enable reversal on SPA to enable x2 link width
+        for NVMe drives
     * V1.2:
       * Disable SATA on Flex Combo port 0 to improve compatibility with certain
         NVMe SSDs in the M.2 slot
@@ -29,6 +32,9 @@ software components and licenses is presented below.
   * Version: v1.2,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
   * Changelog:
+    * V1.3:
+      * Adjust bifurcation and enable reversal on SPA to enable x2 link width
+        for NVMe drives
     * V1.2:
       * Disable SATA on Flex Combo port 0 to improve compatibility with certain
         NVMe SSDs in the M.2 slot
@@ -41,6 +47,9 @@ software components and licenses is presented below.
   * Version: v1.3,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
   * Changelog:
+    * V1.4:
+      * Adjust bifurcation and enable reversal on SPA to enable x2 link width
+        for NVMe drives
     * V1.3:
       * Disable SATA on Flex Combo port 0 to improve compatibility with certain
         NVMe SSDs in the M.2 slot
