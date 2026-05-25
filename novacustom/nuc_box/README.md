@@ -11,14 +11,24 @@ do not install or use the software from this repository. Association of the
 software components and licenses is presented below.
 
 * `me.bin` - Intel Management Engine
-  * Version: v18.0.5.2028
+  * Version: v18.1.18.2724v5:
+    * migrated to consumer layout and settings
+  * Version: v18.0.5.2028:
+    * initial version
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
-* `descriptor.bin` - Intel Flash Descriptor
-  * Version: v1.0
+* `ifd.bin` - Intel Flash Descriptor
+  * Version: v1.1:
+    * switch to consumer layout
+    * change offsets; new region layout:
+      * Descriptor: 0x000000 - 0x003FFF (16 KB)
+      * ME: 0x004000 - 0x9FFFFF (10224 KB)
+      * BIOS: 0x1000000 - 0x1FFFFFFF (16 MB)
+  * Version: v1.0:
+    * initial version
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
-CSME for Meteor Lake H/U 18.0.5.2040v2 Consumer software kit using genuine
+CSME for Meteor Lake H/U 18.1.18.2724_v5 Consumer software kit using genuine
 components provided by Intel, subject to the
 [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
 
