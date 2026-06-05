@@ -21,12 +21,12 @@ goto MENU
 :dasharo
 dhcp ||
 chain https://boot.dasharo.com/dts/dts.ipxe ||
-goto MENU
+exit 1
 
 :netbootxyz
 dhcp ||
 chain https://boot.netboot.xyz/menu.ipxe ||
-goto MENU
+exit 1
 
 :shell
 echo You are now in iPXE shell. Type "exit" to go back to the main menu.
