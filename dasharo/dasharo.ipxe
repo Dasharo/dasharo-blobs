@@ -15,22 +15,42 @@ choose --default boot --timeout 3000 target && goto ${target}
 
 # main menu options
 :boot
-autoboot
+autoboot || goto autoboot_failed
 goto MENU
 
 :dasharo
-dhcp ||
-chain https://boot.dasharo.com/dts/dts.ipxe ||
-exit 1
+dhcp || goto dhcp_failed
+chain https://boot.dasharo.com/dts/dts.ipxe || goto dts_failed
+goto MENU
 
 :netbootxyz
-dhcp ||
-chain https://boot.netboot.xyz/menu.ipxe ||
-exit 1
+dhcp || goto dhcp_failed
+chain https://boot.netboot.xyz/menu.ipxe || goto netbootxyz_failed
+goto MENU
 
 :shell
 echo You are now in iPXE shell. Type "exit" to go back to the main menu.
 shell ||
+goto MENU
+
+:autoboot_failed
+echo Autoboot failed.
+prompt Press any key to return to menu...
+goto MENU
+
+:dhcp_failed
+echo DHCP command failed.
+prompt Press any key to return to menu...
+goto MENU
+
+:dts_failed
+echo Loading DTS failed.
+prompt Press any key to return to menu...
+goto MENU
+
+:netbootxyz_failed
+echo Loading netboot.xyz failed.
+prompt Press any key to return to menu...
 goto MENU
 
 autoboot
