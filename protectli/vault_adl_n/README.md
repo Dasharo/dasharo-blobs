@@ -1,7 +1,7 @@
 # Protectli VP3210/VP3230 blobs
 
 The directory contains blobs to produce a full Dasharo firmware image
-for Protectli VP3210/VP3230 and VP2430 platforms.
+for Protectli VP3210/VP3230, VP2430 and AP2110 platforms.
 
 Do not use or load software from this repository until you have carefully read
 the licenses assigned to the relevant components. By downloading or using the
@@ -53,6 +53,14 @@ software components and licenses is presented below.
     * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
   * `descriptor.bin` - Intel Flash Descriptor
     * Version: v1.0,
+    * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+* `ap2110/`
+  * `me.bin` - Intel Management Engine
+    * Version: v16.50.15.1515,
+    * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+  * `ifd.bin` - Intel Flash Descriptor
+    * Version: v1.0:
+      * initial version
     * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
