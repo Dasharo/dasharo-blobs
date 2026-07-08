@@ -11,7 +11,7 @@ do not install or use the software from this repository. Association of the
 software components and licenses is presented below.
 
 * `me.bin` - Intel Management Engine
-  - Version: v15.0.47.2473,
+  - Version: v15.0.55.2751,
   - License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 * `descriptor.bin` - Intel Flash Descriptor
   - Version: v1.0,
@@ -21,7 +21,7 @@ software components and licenses is presented below.
   - License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
-CSME for Tiger Lake-U 15.0.47.2473v3 Consumer software kit using genuine
+CSME for Tiger Lake-U v15.0.55.2751v6 Consumer software kit using genuine
 components provided by Intel, subject to the
 [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
 
