@@ -1,0 +1,25 @@
+/* SPDX-License-Identifier: GPL-2.0-only */
+{
+  "lang": "en-US",
+  "tag-id": "0c9962a8-a3c4-5037-a3b6-77fad31b0d68",
+  "tag-version": 0,
+  "software-name": "RtkUndiDxe",
+  "software-version": "2.080",
+  "version-scheme": "alphanumeric",
+  "software-meta": [
+    {
+      "product": "Realtek UEFI X64 UNDI driver",
+      "colloquial-version": "2cf84cc93e312757f275ed2df35d732c4e5927117db7a7171bcec26e411125d9",
+      "summary": "Proprietary network controller UEFI driver integrated into the edk2 payload for network boot support."
+    }
+  ],
+  "entity": [
+    {
+      "entity-name": "coreboot",
+      "reg-id": "coreboot.org",
+      "role": [
+        "tagCreator"
+      ]
+    }
+  ]
+}
