@@ -56,8 +56,13 @@ software components and licenses is presented below.
     * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 * `ap2110/`
   * `me.bin` - Intel Management Engine
-    * Version: v16.50.15.1515,
+    * Version: v16.50.25.1777,
     * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
+    * Changelog:
+      * v16.50.25.1777:
+        * Update to the most recent components as of v0.9.0-rc3 preparation
+      * v16.50.15.1515:
+        * Initial version upon board porting
   * `ifd.bin` - Intel Flash Descriptor
     * Version: v1.0:
       * initial version
