@@ -11,7 +11,7 @@ do not install or use the software from this repository. Association of the
 software components and licenses is presented below.
 
 * `me.bin` - Intel Management Engine
-  * Version: v18.0.5.2040
+  * Version: v18.1.18.2724
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 * `descriptor.bin` - Intel Flash Descriptor
   * Version: v1.0
