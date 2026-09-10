@@ -11,7 +11,7 @@ do not install or use the software from this repository. Association of the
 software components and licenses is presented below.
 
 * `me.bin` - Intel Server Platform Services
-  * Version: v6.1.4.89.0,
+  * Version: v6.1.4.230.0,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 * `descriptor.bin` - Intel Flash Descriptor
   * Version: v1.0,
