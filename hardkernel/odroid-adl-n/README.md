@@ -1,7 +1,7 @@
-# Hardkernel ODROID H4 Blobs
+# Hardkernel ODROID ADL-N (H4, H5) Blobs
 
 The directory contains blobs to produce a full Dasharo firmware image for
-Hardkernel ODROID H4+ platforms.
+Hardkernel ODROID H4 and H5 platforms.
 
 Do not use or load software from this repository until you have carefully read
 the licenses assigned to the relevant components. By downloading or using the
