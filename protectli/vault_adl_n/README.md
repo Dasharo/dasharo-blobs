@@ -1,4 +1,4 @@
-# Protectli VP3210/VP3230 blobs
+# Protectli V2210/VP2430/VP3210/VP3230 blobs
 
 The directory contains blobs to produce a full Dasharo firmware image
 for Protectli VP3210/VP3230, VP2430 and V2210 platforms.
