@@ -28,7 +28,7 @@ software components and licenses is presented below.
     * v1.0
       * Based on `descriptor.bin` v1.0
       * Changed PCIe Controller 3 bifurcation to 4x1
-* `h4/me.bin` - Intel Management Engine
+* `h5/me.bin` - Intel Management Engine
   * Version: v16.50.20.1647,
   * License:  [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
 * `h5/descriptor.bin` - Intel Flash Descriptor
