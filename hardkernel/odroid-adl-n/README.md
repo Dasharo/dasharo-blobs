@@ -29,11 +29,23 @@ software components and licenses is presented below.
       * Based on `descriptor.bin` v1.0
       * Changed PCIe Controller 3 bifurcation to 4x1
 * `h5/me.bin` - Intel Management Engine
-  * Version: v16.50.20.1647,
+  * Version: v16.50.25.1777,
   * License:  [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
+  * Changelog:
+    * v16.50.25.1777:
+      * Generated from Intel CSME Alder Lake-N 16.50.25.1777v2
+      * Disabled TxtSupport causing huge delays in ME initialization, TXT is
+        not supported on i3-N300 CPU present on ODROID H5
+    * v16.50.20.1647:
+      * Generated from Intel CSME Alder Lake-N 16.50.20.1647
 * `h5/descriptor.bin` - Intel Flash Descriptor
-  * Version: v1.0,
+  * Version: v1.1,
   * License:  [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
+  * Changelog:
+    * v1.1
+      * Changed Type-C port 2 connector type to Type-A
+      * Disabled SPI TPM support
+      * Fixed JEDEC ID in the VSCC entry for the SPI Flash
 
 Intel Management Engine and Flash Descriptor have been generated with Intel
 CSME for Alder Lake-N v16.50.10.1351 software kit using genuine components
