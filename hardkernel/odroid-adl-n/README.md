@@ -43,8 +43,6 @@ software components and licenses is presented below.
   * License:  [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA].
   * Changelog:
     * v1.1
-      * Changed Type-C port 2 connector type to Type-A
-      * Disabled SPI TPM support
       * Fixed JEDEC ID in the VSCC entry for the SPI Flash
 
 Intel Management Engine and Flash Descriptor have been generated with Intel
