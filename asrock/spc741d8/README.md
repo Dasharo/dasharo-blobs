@@ -14,9 +14,11 @@ software components and licenses is presented below.
   * Version: v6.1.4.230.0,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
 * `descriptor.bin` - Intel Flash Descriptor
-  * Version: v1.0,
+  * Version: v1.1,
   * License: [PV Intel OBL Software License Agreement 11.2.2017][INTEL SLA]
   * Changelog:
+    * v1.1
+      * Disable BIOS read access to Device Expansion 1 region
 
 Intel Management Engine and Flash Descriptor have been generated from Intel
 SPS for Emmitsburg 6.1.4.89.0 software kit using genuine components provided by
